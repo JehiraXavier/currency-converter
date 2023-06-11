@@ -1,3 +1,3 @@
 ## Live Demo
 
-currency-converter-jscript.netlify.app
+https://currency-converter-jscript.netlify.app/
