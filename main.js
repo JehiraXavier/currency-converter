@@ -162,7 +162,7 @@ let country_list = {
 
 const dropList = document.querySelectorAll("form select");
 const from_currency = document.querySelector(".from select");
-const to_currency = document.querySelector(".to select")
+const to_currency = document.querySelector(".to select");
 const exchange_button = document.querySelector("form button");
 
 for (let i = 0; i < dropList.length; i++) {
@@ -176,7 +176,6 @@ for (let i = 0; i < dropList.length; i++) {
         ? "selected"
         : "";
 
-        
     let option_tag = `<option value="${currency_code}" ${selected}>${currency_code}</option>`;
     dropList[i].insertAdjacentHTML("beforeend", option_tag);
   }
