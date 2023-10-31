@@ -228,7 +228,7 @@ function getExchangeRate() {
     .then((response) => response.json())
     .then((result) => {
       let exchange_rate = result.conversion_rates[to_currency.value];
-      let total_exchange_rate = (amount_value * exchange_rate).toFixed(2);
+      let total_exchange_rate = (amount_value * exchange_rate).toFixed(4);
       exchange_rate_text.innerText = `${amount_value} ${from_currency.value} = ${total_exchange_rate} ${to_currency.value}`;
     })
     .catch(() => {
