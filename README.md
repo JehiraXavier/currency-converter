@@ -11,8 +11,6 @@
 
 ![Currency converter](https://res.cloudinary.com/dgm9zfiuo/image/upload/v1698766556/Portfolio%20projects/view_2_lprnhw.png)
 
-## Project summary
-
 ### Technologies used
 * HTML
 * CSS
